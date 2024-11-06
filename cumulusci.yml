@@ -55,7 +55,7 @@ tasks:
             required_org_code_coverage_percent: 75
 
     ensure_account_source_values:
-        description: Ensures the required AccountSource values exist in the org
+        description: Ensures the required Account Source values exist in the org
         class_path: cumulusci.tasks.metadata_etl.value_sets.AddValueSetEntries
         options:
             api_names: AccountSource
