@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ReadyForPurge__c</fullName>
+    <description>flag to check If the record is ready to be purged(This field was created for NPL MA).</description>
+    <formula>IF(LockoutDate__c &lt;= TODAY()-10,true,false)</formula>
+    <label>ReadyForPurge?</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

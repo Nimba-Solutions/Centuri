@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ISBLANK_STATUS</fullName>
+    <active>true</active>
+    <description>28653</description>
+    <errorConditionFormula>AND(
+RecordType.DeveloperName=&quot;NPLUS_Basic&quot;, 
+TEXT( Status   )=&apos;&apos;)</errorConditionFormula>
+    <errorMessage>Status should not be missing for NPLUS_Basic record types</errorMessage>
+</ValidationRule>

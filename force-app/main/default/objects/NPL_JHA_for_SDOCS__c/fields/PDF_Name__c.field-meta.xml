@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PDF_Name__c</fullName>
+    <description>Composed by Area + &quot;JHA&quot; + Foreman&apos;s first and last names + mmddyyyy + end time(This field was created for NPL MA).</description>
+    <externalId>false</externalId>
+    <formula>Form__r.Area_Code__c +
+&quot; &quot; +
+&apos;JHA&apos; +
+&quot; - &quot; +
+CreatedBy.FirstName +
+&quot; &quot; +
+CreatedBy.LastName +
+&quot; &quot; +
+TEXT(Start_Date__c) +
+&quot; &quot; +
+IF ( CONTAINS ( MID ( End_Time__c, FIND ( &quot;:&quot;, End_Time__c ) + 1, 2 ), &quot;:&quot; ),
+				&quot;0&quot; + MID ( End_Time__c, FIND ( &quot;:&quot;, End_Time__c ) + 1, 1 ),
+  MID ( End_Time__c, FIND ( &quot;:&quot;, End_Time__c ) + 1, 2 ) )</formula>
+    <label>PDF Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

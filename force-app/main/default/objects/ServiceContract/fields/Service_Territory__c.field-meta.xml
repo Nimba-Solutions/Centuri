@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Territory__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>28660 Territory from SAP. S/B top level only</description>
+    <inlineHelpText>Top-level territory from SAP. Field helps user filter Contracts in creation flow. Must be a Level 0 territory.</inlineHelpText>
+    <label>Service Territory</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Must be a Top-Level Territory</errorMessage>
+        <filterItems>
+            <field>ServiceTerritory.FSL__TerritoryLevel__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>ServiceTerritory</referenceTo>
+    <relationshipLabel>Service Contracts</relationshipLabel>
+    <relationshipName>Service_Contracts</relationshipName>
+    <required>true</required>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Summarized_Estimated_Man_Hours__c</fullName>
+    <description>This is a summary of the total value of the Total Estimated Man Hours on all child NPLUS Jobs.</description>
+    <inlineHelpText>This is a summary of the total value of the Total Estimated Man Hours on all child NPLUS Jobs.</inlineHelpText>
+    <label>Summarized Estimated Man Hours</label>
+    <summarizedField>NPLUS_Job__c.Summarized_Estimated_Man_Hours__c</summarizedField>
+    <summaryForeignKey>NPLUS_Job__c.Service_Contract__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

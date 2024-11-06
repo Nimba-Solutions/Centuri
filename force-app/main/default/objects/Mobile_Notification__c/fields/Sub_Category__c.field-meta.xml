@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Category__c</fullName>
+    <description>26160</description>
+    <label>Sub Category</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Category__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Toolbox Talk</fullName>
+                <default>false</default>
+                <label>Toolbox Talk</label>
+            </value>
+            <value>
+                <fullName>Required Toolbox Talk Training</fullName>
+                <default>false</default>
+                <label>Required Toolbox Talk Training</label>
+            </value>
+            <value>
+                <fullName>Weekly Safety Meeting</fullName>
+                <default>false</default>
+                <label>Weekly Safety Meeting</label>
+            </value>
+            <value>
+                <fullName>Red Alert</fullName>
+                <default>false</default>
+                <label>Red Alert</label>
+            </value>
+            <value>
+                <fullName>Lesson Learned</fullName>
+                <default>false</default>
+                <label>Lesson Learned</label>
+            </value>
+            <value>
+                <fullName>Area Specific Safety Message</fullName>
+                <default>false</default>
+                <label>Area Specific Safety Message</label>
+            </value>
+            <value>
+                <fullName>Safety Bulletin</fullName>
+                <default>false</default>
+                <label>Safety Bulletin</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Safety Communication</controllingFieldValue>
+            <valueName>Toolbox Talk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety Communication</controllingFieldValue>
+            <valueName>Required Toolbox Talk Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety Communication</controllingFieldValue>
+            <valueName>Weekly Safety Meeting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety Communication</controllingFieldValue>
+            <valueName>Red Alert</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety Communication</controllingFieldValue>
+            <valueName>Lesson Learned</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety Communication</controllingFieldValue>
+            <valueName>Area Specific Safety Message</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety Communication</controllingFieldValue>
+            <valueName>Safety Bulletin</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

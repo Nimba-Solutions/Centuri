@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Deletion</fullName>
+    <active>true</active>
+    <description>46698 Prevents record deletion. See related flow</description>
+    <errorConditionFormula>Prevent_Deletion__c</errorConditionFormula>
+    <errorMessage>Service Appointment Cannot be Deleted</errorMessage>
+</ValidationRule>

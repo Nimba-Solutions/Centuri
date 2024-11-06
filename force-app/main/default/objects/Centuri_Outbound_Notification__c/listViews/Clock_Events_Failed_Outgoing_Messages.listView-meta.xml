@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clock_Events_Failed_Outgoing_Messages</fullName>
+    <columns>NAME</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>ObjectName__c</columns>
+    <columns>SourceSystem__c</columns>
+    <columns>Clock_Event_Record__c</columns>
+    <columns>ExceptionMessage__c</columns>
+    <columns>ExceptionType__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>IntegrationState__c</field>
+        <operation>equals</operation>
+        <value>Failure</value>
+    </filters>
+    <filters>
+        <field>ObjectName__c</field>
+        <operation>equals</operation>
+        <value>TimesheetClockEvent__c</value>
+    </filters>
+    <filters>
+        <field>LockoutDateInPast__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Clock Events - Failed Outgoing Messages</label>
+</ListView>

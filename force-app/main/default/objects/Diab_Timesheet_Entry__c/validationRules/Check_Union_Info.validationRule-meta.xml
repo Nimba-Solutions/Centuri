@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Union_Info</fullName>
+    <active>false</active>
+    <description>If Personnel Number is Union, Union Info is required.</description>
+    <errorConditionFormula>IF(!PersonnelNumber__r.IsNotUnion__c, 
+				ISBLANK(Union__c),
+				false)</errorConditionFormula>
+    <errorMessage>Personnel Number is Union. Union Info is required.</errorMessage>
+</ValidationRule>

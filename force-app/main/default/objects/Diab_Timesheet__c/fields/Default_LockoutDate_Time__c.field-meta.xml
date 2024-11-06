@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Default_LockoutDate_Time__c</fullName>
+    <description>Tuesday 9 AM Arizona time(This field was created for NPL MA)</description>
+    <formula>DATETIMEVALUE(
+CASE(
+MOD(WorkDate__c - DATE(1900, 1, 7), 7),
+0, WorkDate__c +9,
+1, WorkDate__c +8,
+2, WorkDate__c +7,
+3, WorkDate__c +6,
+4, WorkDate__c +5,
+5, WorkDate__c +4,
+6, WorkDate__c +3,
+WorkDate__c) )
++ (9+ Employee__r.Service_Resource__r.Diab_Offset__c) /24</formula>
+    <label>Default LockoutDate/Time</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

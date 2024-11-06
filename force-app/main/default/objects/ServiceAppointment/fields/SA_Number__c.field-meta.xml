@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SA_Number__c</fullName>
+    <description>28757 Required for chatter message. OOTB number was creating Topic record when added into the chatter messages for rejection and cannot complete</description>
+    <externalId>false</externalId>
+    <formula>AppointmentNumber</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>SA_Number</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

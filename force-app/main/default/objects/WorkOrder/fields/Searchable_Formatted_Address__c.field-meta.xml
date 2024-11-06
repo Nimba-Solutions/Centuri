@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Searchable_Formatted_Address__c</fullName>
+    <description>Text field auto populated with the text from the Formatted Address formula field to make it searchable.</description>
+    <externalId>false</externalId>
+    <label>Searchable Formatted Address</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

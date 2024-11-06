@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Territory__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>29511</description>
+    <inlineHelpText>Primary Service Territory related to the Project.</inlineHelpText>
+    <label>Service Territory</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Project record Service Territory must be Level 1</errorMessage>
+        <filterItems>
+            <field>ServiceTerritory.FSL__TerritoryLevel__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>ServiceTerritory</referenceTo>
+    <relationshipLabel>Projects</relationshipLabel>
+    <relationshipName>Projects</relationshipName>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Potential_Hazard__c</fullName>
+    <description>List of potential hazards associated to the critical step(This field was created for NPL MA).</description>
+    <label>Potential Hazard</label>
+    <length>600</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

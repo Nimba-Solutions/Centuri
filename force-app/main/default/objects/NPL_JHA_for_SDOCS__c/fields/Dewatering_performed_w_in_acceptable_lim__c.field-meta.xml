@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dewatering_performed_w_in_acceptable_lim__c</fullName>
+    <description>Text of the flag for dewatering confirmation(This field was created for NPL MA).</description>
+    <externalId>false</externalId>
+    <label>Dewatering performed w/in acceptable lim</label>
+    <length>10</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

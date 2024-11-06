@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Abort_changes_on_Locked_entries</fullName>
+    <active>true</active>
+    <description>Update to Locked Timesheet Equipment Entries is not allowed post Lockout time</description>
+    <errorConditionFormula>AND(Diab_IsLocked_Adjuster_Approver__c  = true ,
+				OR(ISCHANGED( SequenceNo__c ), 
+							ISCHANGED(Area_Serv_Terr__c),
+							ISCHANGED(AssetDescription__c),
+							ISCHANGED(CompanyCode__c),
+							ISCHANGED(CostCenter__c), 
+							ISCHANGED(CustRefDate__c), 
+							ISCHANGED(Default_LockoutDateTime__c), 
+							ISCHANGED(Diab_IsLocked_Adjuster_Approver__c), 
+							ISCHANGED(Asset__c),
+							ISCHANGED(LockoutDate__c), 
+							ISCHANGED(Name), 
+							ISCHANGED(ProfitCenter__c),
+							ISCHANGED(RentalHours__c), 
+							ISCHANGED(SalesDocument__c),
+							ISCHANGED(Timesheet__c),
+							ISCHANGED(WBSElement__c),
+       ISCHANGED(WorkDate__c)
+						))</errorConditionFormula>
+    <errorMessage>The Timesheet Equipment Entry is locked. You can not make any changes. Please contact administrator for further assistance.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ISCHANGED_ACCOUNT</fullName>
+    <active>true</active>
+    <description>28653</description>
+    <errorConditionFormula>AND( $Profile.Name &lt;&gt;&apos;System Administrator&apos;, RecordType.DeveloperName = &apos;NPLUS_Basic&apos;,
+ISCHANGED(  AccountId ))</errorConditionFormula>
+    <errorMessage>Account should not change. You may cancel and recreate a as needed or contact a System Adminstrator.</errorMessage>
+</ValidationRule>

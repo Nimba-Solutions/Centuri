@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PersonnelNumber__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Employee</label>
+    <referenceTo>Employee__c</referenceTo>
+    <relationshipLabel>ZCA_Approvers</relationshipLabel>
+    <relationshipName>ZCA_Approvers</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

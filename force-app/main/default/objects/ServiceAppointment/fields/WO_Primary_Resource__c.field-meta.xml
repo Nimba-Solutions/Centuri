@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WO_Primary_Resource__c</fullName>
+    <description>#28051 Show in Field Set Expanded</description>
+    <externalId>false</externalId>
+    <formula>Work_Order__r.Primary_Resource__r.Service_Resource__r.Name</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>WO Primary Resource</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

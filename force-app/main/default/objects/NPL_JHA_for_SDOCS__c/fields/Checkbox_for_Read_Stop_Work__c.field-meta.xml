@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Checkbox_for_Read_Stop_Work__c</fullName>
+    <description>Flag for Read Stop Work(This field was created for NPL MA).</description>
+    <formula>IF( ISPICKVAL(Read_Stop_Work_Responsibility_Statement__c,&quot;Yes&quot;), True, False)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Checkbox for Read Stop Work</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

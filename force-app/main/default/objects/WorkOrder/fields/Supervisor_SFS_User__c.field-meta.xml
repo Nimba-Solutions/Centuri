@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supervisor_SFS_User__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This field is a source field for Supervisor Email and Name, and those are being used on the Launch page(This field was created for NPL MA).</description>
+    <label>Supervisor SFS User</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Work_Orders2_del</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

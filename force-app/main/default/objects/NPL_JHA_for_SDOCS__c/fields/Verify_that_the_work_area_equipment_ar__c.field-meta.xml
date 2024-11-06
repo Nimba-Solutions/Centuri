@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Verify_that_the_work_area_equipment_ar__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Text of the flag for verify work area(This field was created for NPL MA).</description>
+    <label>Verify that the work area &amp; equipment ar</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

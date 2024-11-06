@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Default_Crew__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>BU: NPLMA - used to identify if a crew member was assigned when the work order was created</description>
+    <label>Default Crew</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

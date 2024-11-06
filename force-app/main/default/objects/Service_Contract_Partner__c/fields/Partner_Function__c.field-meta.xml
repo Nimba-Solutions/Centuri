@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Function__c</fullName>
+    <description>29622 direct integration. Formula to show user the common name in SF (e.g., Customer)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Integrated value from SAP</inlineHelpText>
+    <label>Partner Function</label>
+    <length>100</length>
+    <required>true</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Resource__c</fullName>
+    <description>#28858 This should be part of the integration. #28050 Restrict to Technician Types</description>
+    <inlineHelpText>Most often the Crew Leader or Foreman Service Resource record.</inlineHelpText>
+    <label>Service Resource</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Service Resource must be of type Technician</errorMessage>
+        <filterItems>
+            <field>ServiceResource.ResourceType</field>
+            <operation>equals</operation>
+            <value>Technician</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>ServiceResource</referenceTo>
+    <relationshipLabel>Phases</relationshipLabel>
+    <relationshipName>Contract_Job_Resource_Relationships</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

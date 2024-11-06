@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HasCheckbox__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>These are the Attendance or Wage Type that should appear as Check box while entering the Time.</description>
+    <label>HasCheckbox</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

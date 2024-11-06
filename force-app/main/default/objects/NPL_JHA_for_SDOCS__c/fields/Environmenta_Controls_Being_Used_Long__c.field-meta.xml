@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Environmenta_Controls_Being_Used_Long__c</fullName>
+    <description>Description of environmental controls plus spaces for print form(This field was created for NPL MA).</description>
+    <externalId>false</externalId>
+    <formula>IF( INCLUDES(Environmental_Controls_being_used__c, &apos;Spill Kits available&apos;), &apos;Spill Kits available&apos; &amp; BR(), null) +
+IF( INCLUDES(Environmental_Controls_being_used__c, &apos;Dewatering performed&apos;), &apos;Dewatering performed&apos; &amp; BR(), null) +
+IF( INCLUDES(Environmental_Controls_being_used__c, &apos;Silt fence&apos;), &apos;Silt fence&apos; &amp; BR(), null) +
+IF( INCLUDES(Environmental_Controls_being_used__c, &apos;Straw wattles&apos;), &apos;Straw wattles&apos; &amp; BR(), null) +
+IF( INCLUDES(Environmental_Controls_being_used__c, &apos;Compost filter sock&apos;), &apos;Compost filter sock&apos; &amp; BR(), null) +
+IF( INCLUDES(Environmental_Controls_being_used__c, &apos;Storm drain protection&apos;), &apos;Storm drain protection&apos; &amp; BR(), null) +
+IF( INCLUDES(Environmental_Controls_being_used__c, &apos;Dust control&apos;), &apos;Dust control&apos; &amp; BR(), null) +
+IF( INCLUDES(Environmental_Controls_being_used__c, &apos;Other&apos;), &apos;Other&apos;, null)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Environmental Controls being used long</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

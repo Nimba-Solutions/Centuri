@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllowFuture__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Attendance and Wage types that can be entered for future values for that week.</description>
+    <label>AllowFuture</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

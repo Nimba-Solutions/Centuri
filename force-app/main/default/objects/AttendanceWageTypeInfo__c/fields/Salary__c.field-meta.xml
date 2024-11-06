@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Salary__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>The Attendance and wage type seen by Salary employees
+Salaried employees are identified in Employee Object on Field - hourlysalaried__c as Salaried</description>
+    <label>Salary</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

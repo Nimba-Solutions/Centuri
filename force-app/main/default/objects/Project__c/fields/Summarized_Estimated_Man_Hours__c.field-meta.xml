@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Summarized_Estimated_Man_Hours__c</fullName>
+    <description>This is a summary of the total value of the Total Estimated Man Hours on all child Sub Projects.</description>
+    <inlineHelpText>This is a summary of the total value of the Total Estimated Man Hours on all child Sub Projects.</inlineHelpText>
+    <label>Summarized Estimated Man Hours</label>
+    <summarizedField>Sub_Project__c.Summarized_Estimated_Man_Hours__c</summarizedField>
+    <summaryForeignKey>Sub_Project__c.Project__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

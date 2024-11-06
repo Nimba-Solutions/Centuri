@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Summarized_Estimates__c</fullName>
+    <description>This is a summary of the total value of the Subtotal Estimates on all child Projects.</description>
+    <inlineHelpText>This is a summary of the total value of the Subtotal Estimates on all child Projects.</inlineHelpText>
+    <label>Summarized Estimates</label>
+    <summarizedField>Project__c.Summarized_Estimates__c</summarizedField>
+    <summaryForeignKey>Project__c.NPLUS_Job__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

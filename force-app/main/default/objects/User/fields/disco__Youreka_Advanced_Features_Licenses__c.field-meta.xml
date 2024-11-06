@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>disco__Youreka_Advanced_Features_Licenses__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Licenses for advanced features</description>
+    <inlineHelpText>Licenses for advanced features</inlineHelpText>
+    <label>Youreka Advanced Features Licenses</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Advanced Data Collection</fullName>
+                <default>false</default>
+                <label>Advanced Data Collection</label>
+            </value>
+            <value>
+                <fullName>Maps</fullName>
+                <default>false</default>
+                <label>Maps</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

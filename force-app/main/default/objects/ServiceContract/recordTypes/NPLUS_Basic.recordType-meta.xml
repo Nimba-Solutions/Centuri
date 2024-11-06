@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NPLUS_Basic</fullName>
+    <active>true</active>
+    <description>NPLUS Basic record type for all NPLUS Service Contracts in scope for Mid America today</description>
+    <label>NPLUS Basic</label>
+    <picklistValues>
+        <picklist>ApprovalStatus</picklist>
+        <values>
+            <fullName>Activated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draft</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>In Approval Process</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Billable_Account__c</picklist>
+        <values>
+            <fullName>Project Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Contract Account</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contract_Type__c</picklist>
+        <values>
+            <fullName>Bid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blanket</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

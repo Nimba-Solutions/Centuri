@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WeekEnding_Date__c</fullName>
+    <description>Week Ending date is set to the upcoming Sunday of the current week.(This field was created for NPL MA).</description>
+    <formula>DATEVALUE
+(
+CASE(
+MOD((WorkDate__c)- DATE(1900, 1, 7), 7),
+0, DATETIMEVALUE(DATE( YEAR(WorkDate__c),MONTH( WorkDate__c),DAY(WorkDate__c)+8)),
+1, DATETIMEVALUE(DATE( YEAR(WorkDate__c),MONTH( WorkDate__c),DAY(WorkDate__c)+7)),
+2, DATETIMEVALUE(DATE( YEAR(WorkDate__c),MONTH( WorkDate__c),DAY(WorkDate__c)+6)),
+3, DATETIMEVALUE(DATE( YEAR(WorkDate__c),MONTH( WorkDate__c),DAY(WorkDate__c)+5)),
+4, DATETIMEVALUE(DATE( YEAR(WorkDate__c),MONTH( WorkDate__c),DAY(WorkDate__c)+4)),
+5, DATETIMEVALUE(DATE( YEAR(WorkDate__c),MONTH( WorkDate__c),DAY(WorkDate__c)+3)),
+6, DATETIMEVALUE(DATE( YEAR(WorkDate__c),MONTH( WorkDate__c),DAY(WorkDate__c)+2)),
+DATETIMEVALUE(DATE( YEAR(WorkDate__c),MONTH( WorkDate__c),DAY(WorkDate__c)))
+))</formula>
+    <label>WeekEnding Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

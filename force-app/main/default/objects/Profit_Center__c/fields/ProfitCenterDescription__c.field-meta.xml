@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProfitCenterDescription__c</fullName>
+    <description>The Profit centre code description(This field was created for NPL MA).</description>
+    <externalId>false</externalId>
+    <formula>Name  &amp; &quot; - &quot; &amp;  Description__c</formula>
+    <label>Profit Center Description</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

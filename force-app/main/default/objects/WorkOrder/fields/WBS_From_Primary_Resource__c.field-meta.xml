@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WBS_From_Primary_Resource__c</fullName>
+    <description>45791 plenty of use cases. started with sub project table</description>
+    <externalId>false</externalId>
+    <formula>IF(
+ISBLANK( Primary_Resource__c ),&quot;TBD&quot;, Primary_Resource__r.SAP_Phase_WBS_Number__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>WBS # from Primary Resource</inlineHelpText>
+    <label>WBS</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

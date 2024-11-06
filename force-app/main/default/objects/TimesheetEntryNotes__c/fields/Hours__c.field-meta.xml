@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hours__c</fullName>
+    <description>The employee hours (used for new hires that are not in the system yet, the Time Adjuster sees this and enters the hours the next week)(This field was created for NPL MA).</description>
+    <externalId>false</externalId>
+    <label>Hours</label>
+    <precision>17</precision>
+    <required>false</required>
+    <scale>1</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

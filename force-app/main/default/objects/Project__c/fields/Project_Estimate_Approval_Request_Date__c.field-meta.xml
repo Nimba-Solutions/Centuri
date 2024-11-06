@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Estimate_Approval_Request_Date__c</fullName>
+    <description>45770 Date in which the Estimate Approval Request was most recently submitted to the Superintendent</description>
+    <inlineHelpText>Date in which the Estimate Approval Request was most recently submitted to the Superintendent</inlineHelpText>
+    <label>Project Estimate Approval Request Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

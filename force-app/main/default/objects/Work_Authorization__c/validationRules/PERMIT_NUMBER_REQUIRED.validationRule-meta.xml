@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PERMIT_NUMBER_REQUIRED</fullName>
+    <active>true</active>
+    <description>30492 CANNOT BE BLANK. 5/31 MEETING</description>
+    <errorConditionFormula>AND( RecordType.DeveloperName = &apos;Permit&apos;,TEXT( Status__c )=&apos;Approved&apos;,
+ISBLANK( Permit_Number__c ))</errorConditionFormula>
+    <errorMessage>Work Authorization Permit Number cannot be blank if Approved</errorMessage>
+</ValidationRule>

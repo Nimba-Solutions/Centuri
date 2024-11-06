@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LockoutDateTime__c</fullName>
+    <description>Value is derived from Lock out time table using the  WeekEnding Date(This field was created for NPL MA).</description>
+    <label>LockoutDateTime</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

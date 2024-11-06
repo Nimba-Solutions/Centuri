@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Foreman__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Key to the User object identifying the foreman(This field was created for NPL MA).</description>
+    <label>Foreman</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Default_Equipments</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

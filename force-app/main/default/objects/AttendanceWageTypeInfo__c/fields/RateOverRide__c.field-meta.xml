@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RateOverRide__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If these Booleans are marked as true, then rates are required for those Attendance and Wage Type. (Rate property is used by Attendance Type and Valuation basis is used by Wage Type).</description>
+    <label>RateOverRide</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

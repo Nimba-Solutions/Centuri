@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MATCH_Personnel_Number</fullName>
+    <active>true</active>
+    <description>45744 field is required for the Assigned Crew record creation and various other automations AND it must match the user Personnel Number</description>
+    <errorConditionFormula>AND(
+ IsActive ,
+ NPL_Personnel_Number__c &lt;&gt; RelatedRecord.PersonnelNumberID__c  ,
+TEXT( ResourceType )=&apos;T&apos;)</errorConditionFormula>
+    <errorMessage>Service Resource Personnel Number is required and MUST match the Personnel Number of the related User</errorMessage>
+</ValidationRule>

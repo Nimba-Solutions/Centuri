@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Territory__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>28857</description>
+    <inlineHelpText>The regional Service Territory default value for new Projects</inlineHelpText>
+    <label>Service Territory</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>NPLUS Job Territory Level must be 1</errorMessage>
+        <filterItems>
+            <field>ServiceTerritory.FSL__TerritoryLevel__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>ServiceTerritory</referenceTo>
+    <relationshipLabel>NPLUS Jobs</relationshipLabel>
+    <relationshipName>NPLUS_Jobs</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ISCHANGED_PRIMARY_RESOURCE</fullName>
+    <active>true</active>
+    <description>#28050 Primary Resource cannot change</description>
+    <errorConditionFormula>AND( $Profile.Name &lt;&gt;&apos;System Administrator&apos;,PRIORVALUE( Primary_Resource__c )&lt;&gt;&apos;&apos;,Primary_Resource_Locked__c, ISCHANGED(Primary_Resource__c  ))</errorConditionFormula>
+    <errorMessage>Work Order Primary Resource should not change. You may cancel and recreate a work order as needed or contact a System Adminstrator.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Traffic_Control_Plan_Includes__c</fullName>
+    <description>Description of the traffic control plan(This field was created for NPL MA).</description>
+    <label>Traffic Control Plan Includes</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Vehicle/equipment parked to protect work area</fullName>
+                <default>false</default>
+                <label>Vehicle/equipment parked to protect work area</label>
+            </value>
+            <value>
+                <fullName>Lane Closure</fullName>
+                <default>false</default>
+                <label>Lane Closure</label>
+            </value>
+            <value>
+                <fullName>Traffic Control Signs</fullName>
+                <default>false</default>
+                <label>Traffic Control Signs</label>
+            </value>
+            <value>
+                <fullName>Cones/movable barricades</fullName>
+                <default>false</default>
+                <label>Cones/movable barricades</label>
+            </value>
+            <value>
+                <fullName>Immovable barriers/barricades</fullName>
+                <default>false</default>
+                <label>Immovable barriers/barricades</label>
+            </value>
+            <value>
+                <fullName>Flaggers/Police detail</fullName>
+                <default>false</default>
+                <label>Flaggers/Police detail</label>
+            </value>
+            <value>
+                <fullName>Public sidewalk closure/pedestrian detour</fullName>
+                <default>false</default>
+                <label>Public sidewalk closure/pedestrian detour</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

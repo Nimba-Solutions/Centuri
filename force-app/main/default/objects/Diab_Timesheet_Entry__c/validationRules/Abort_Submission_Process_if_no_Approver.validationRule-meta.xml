@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Abort_Submission_Process_if_no_Approver</fullName>
+    <active>false</active>
+    <description>No authorization to Approve the Time sheet Entry.</description>
+    <errorConditionFormula>AND(ISBLANK( Approver__r.Id   ) ,  ISPICKVAL(Status__c, &apos;Submitted&apos;)   )</errorConditionFormula>
+    <errorMessage>No authorization to Approve the Time sheet Entry.</errorMessage>
+</ValidationRule>

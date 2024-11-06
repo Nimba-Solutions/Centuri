@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Link_to_Locate__c</fullName>
+    <description>29277 Original field. URL to work as hyperlink to open record on the 811 site
+45528: update help text</description>
+    <inlineHelpText>Link to specific locate ticket</inlineHelpText>
+    <label>Link to Locate</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

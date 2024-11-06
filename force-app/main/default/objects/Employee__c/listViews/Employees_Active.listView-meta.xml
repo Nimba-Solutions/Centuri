@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Employees_Active</fullName>
+    <columns>NAME</columns>
+    <columns>EmploymentStatus__c</columns>
+    <columns>PersonnelNumber__c</columns>
+    <columns>SFS_User__c</columns>
+    <columns>Service_Resource__c</columns>
+    <columns>Profit_Center__c</columns>
+    <columns>Cost_Center__c</columns>
+    <columns>email__c</columns>
+    <columns>personnelarea__c</columns>
+    <columns>hourlysalaried__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>EmploymentStatus__c</field>
+        <operation>equals</operation>
+        <value>3</value>
+    </filters>
+    <label>Employees-Active</label>
+</ListView>

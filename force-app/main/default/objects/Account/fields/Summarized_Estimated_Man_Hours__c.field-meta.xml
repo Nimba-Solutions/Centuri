@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Summarized_Estimated_Man_Hours__c</fullName>
+    <description>This is a summary of the total value of the Total Estimated Man Hours on all child Service Contracts.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is a summary of the total value of the Total Estimated Man Hours on all child Service Contracts.</inlineHelpText>
+    <label>Summarized Estimated Man Hours</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

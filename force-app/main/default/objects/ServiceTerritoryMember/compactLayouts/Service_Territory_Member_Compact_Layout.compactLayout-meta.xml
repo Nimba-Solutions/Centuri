@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Territory_Member_Compact_Layout</fullName>
+    <fields>MemberNumber</fields>
+    <fields>TerritoryType</fields>
+    <fields>ServiceTerritoryId</fields>
+    <fields>ServiceResourceId</fields>
+    <fields>EffectiveStartDate</fields>
+    <fields>EffectiveEndDate</fields>
+    <label>Service Territory Member Compact Layout</label>
+</CompactLayout>

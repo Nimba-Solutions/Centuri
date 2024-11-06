@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Timesheet__c</fullName>
+    <description>Timesheet Parent Object(This field was created for NPL MA).</description>
+    <label>Timesheet</label>
+    <referenceTo>Diab_Timesheet__c</referenceTo>
+    <relationshipLabel>Timesheets Entry</relationshipLabel>
+    <relationshipName>Timesheets_Entry</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

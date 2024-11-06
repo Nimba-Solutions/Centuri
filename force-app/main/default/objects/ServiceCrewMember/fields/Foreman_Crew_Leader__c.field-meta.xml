@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Foreman_Crew_Leader__c</fullName>
+    <formula>IF(AND(IsLeader, CONTAINS(Service_Resource_User_ID__c, $User.Id)), true, false)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Foreman/Crew Leader</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

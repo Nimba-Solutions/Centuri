@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AttendenceTypeCode__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Attendance Type lookup. Mutually exclusive to Wage Type</description>
+    <label>AttendenceTypeCode</label>
+    <referenceTo>AttendanceType__c</referenceTo>
+    <relationshipLabel>AttendanceWageTypeInfos</relationshipLabel>
+    <relationshipName>EmployeeAttendanceTypes</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

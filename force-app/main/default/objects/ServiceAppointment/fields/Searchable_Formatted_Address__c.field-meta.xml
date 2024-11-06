@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Searchable_Formatted_Address__c</fullName>
+    <description>A searchable text field to allow the user to search the Service Appointment records by address.
+
+ADO #36684</description>
+    <externalId>false</externalId>
+    <label>Searchable Formatted Address</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

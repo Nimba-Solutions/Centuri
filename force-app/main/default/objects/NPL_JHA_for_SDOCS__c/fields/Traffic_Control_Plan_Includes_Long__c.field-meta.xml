@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Traffic_Control_Plan_Includes_Long__c</fullName>
+    <description>Traffic control plan plus extra spaces for print format(This field was created for NPL MA).</description>
+    <externalId>false</externalId>
+    <formula>IF( INCLUDES(Traffic_Control_Plan_Includes__c, &apos;Vehicle/equipment parked to protect work area&apos;), &apos;Vehicle/equipment parked to protect work area&apos; &amp; BR(), null) +   
+ IF( INCLUDES(Traffic_Control_Plan_Includes__c, &apos;Lane Closure&apos;), &apos;Lane Closure&apos; &amp; BR(), null) +   
+ IF( INCLUDES(Traffic_Control_Plan_Includes__c, &apos;Traffic Control Signs&apos;), &apos;Traffic Control Signs&apos; &amp; BR(), null) +   
+ IF( INCLUDES(Traffic_Control_Plan_Includes__c, &apos;Cones/movable barricades&apos;), &apos;Cones/movable barricades&apos; &amp; BR(), null) +   
+ IF( INCLUDES(Traffic_Control_Plan_Includes__c, &apos;Immovable barriers/barricades&apos;), &apos;Immovable barriers/barricades&apos; &amp; BR(), null) +
+	IF( INCLUDES(Traffic_Control_Plan_Includes__c, &apos;Flaggers/Police detail&apos;), &apos;Flaggers/Police detail&apos; &amp; BR(), null) +   
+ IF( INCLUDES(Traffic_Control_Plan_Includes__c, &apos;Public sidewalk closure/pedestrian detour&apos;), &apos;Public sidewalk closure/pedestrian detour&apos; &amp; BR(), null) +   
+ IF( INCLUDES(Traffic_Control_Plan_Includes__c, &apos;Other&apos;), &apos;Other&apos;, null)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Traffic Control Plan Includes Long</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

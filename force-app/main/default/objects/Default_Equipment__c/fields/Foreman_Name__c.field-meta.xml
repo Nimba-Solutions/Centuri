@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Foreman_Name__c</fullName>
+    <description>Foreman&apos;s first and last name(This field was created for NPL MA).</description>
+    <externalId>false</externalId>
+    <formula>IF ( Foreman__r.MiddleName  &lt;&gt; &apos;&apos;, Foreman__r.FirstName &amp; Foreman__r.MiddleName &amp;  Foreman__r.LastName, Foreman__r.FirstName &amp; Foreman__r.LastName )</formula>
+    <label>Foreman Name</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

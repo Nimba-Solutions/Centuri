@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_WorkDate_Or_CusRefDate</fullName>
+    <active>false</active>
+    <description>Work Date / Cust Ref Date is required</description>
+    <errorConditionFormula>ISBLANK(WorkDate__c)</errorConditionFormula>
+    <errorMessage>Work Date / Cust Ref Date is required</errorMessage>
+</ValidationRule>

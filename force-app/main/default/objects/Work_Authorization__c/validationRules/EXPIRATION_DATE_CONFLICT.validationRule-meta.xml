@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EXPIRATION_DATE_CONFLICT</fullName>
+    <active>true</active>
+    <description>29277 The Expiration Date cannot be before the Request Date</description>
+    <errorConditionFormula>AND( RecordType.DeveloperName = &apos;Locate&apos;,
+Expiration_Date__c &lt;  Request_Date__c)</errorConditionFormula>
+    <errorMessage>Work Authorization Expiration Date cannot be before the Request Date</errorMessage>
+</ValidationRule>

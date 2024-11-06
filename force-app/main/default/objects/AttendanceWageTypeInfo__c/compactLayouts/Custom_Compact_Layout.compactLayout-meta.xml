@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custom_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>ExternalRefID__c</fields>
+    <fields>KeyDate__c</fields>
+    <fields>Minutes__c</fields>
+    <fields>ClockEvents__c</fields>
+    <fields>TotalHours__c</fields>
+    <fields>Overtime__c</fields>
+    <fields>RegularTime__c</fields>
+    <fields>Hours__c</fields>
+    <label>Custom Compact Layout</label>
+</CompactLayout>

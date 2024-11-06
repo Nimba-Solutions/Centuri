@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ISBLANK_CANCELATION_DATE</fullName>
+    <active>true</active>
+    <description>29526</description>
+    <errorConditionFormula>AND(
+ISBLANK( Cancelation_Date__c  ),
+TEXT( Status__c ) = &apos;Canceled&apos;)</errorConditionFormula>
+    <errorMessage>Sub Project Cancelation Date is required when status is Canceled</errorMessage>
+</ValidationRule>

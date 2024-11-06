@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <description>29277 Original field.</description>
+    <inlineHelpText>Type of Permit required. For Locate records this field value is hidden and defaulted to be &quot;Locate&quot;</inlineHelpText>
+    <label>Type</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>City</fullName>
+                <default>false</default>
+                <label>City</label>
+            </value>
+            <value>
+                <fullName>Excavation</fullName>
+                <default>false</default>
+                <label>Excavation</label>
+            </value>
+            <value>
+                <fullName>Hard Surface</fullName>
+                <default>false</default>
+                <label>Hard Surface</label>
+            </value>
+            <value>
+                <fullName>Locate</fullName>
+                <default>false</default>
+                <label>Locate</label>
+            </value>
+            <value>
+                <fullName>Railroad</fullName>
+                <default>false</default>
+                <label>Railroad</label>
+            </value>
+            <value>
+                <fullName>Right of Way</fullName>
+                <default>false</default>
+                <label>Right of Way</label>
+            </value>
+            <value>
+                <fullName>Sewer</fullName>
+                <default>false</default>
+                <label>Sewer</label>
+            </value>
+            <value>
+                <fullName>Traffic Control</fullName>
+                <default>false</default>
+                <label>Traffic Control</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

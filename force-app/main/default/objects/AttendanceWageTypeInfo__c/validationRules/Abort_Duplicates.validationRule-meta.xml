@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Abort_Duplicates</fullName>
+    <active>true</active>
+    <description>AttendanceWageTypeInfo can have only one kind of Attendance Or Wage type can be added to a type of employee that is HourlyCraft, HourlyNonCraft and Salaried.The flow &quot;Diab - Abort on Duplicate creation of Attendance Wage Type&quot;</description>
+    <errorConditionFormula>IsDuplicate__c = true</errorConditionFormula>
+    <errorMessage>There is a duplicate of for the same Area code with either of HourlyCraft, HourlyNonCraft and Salaried is already created. Please update the existing one before creating a new one.</errorMessage>
+</ValidationRule>

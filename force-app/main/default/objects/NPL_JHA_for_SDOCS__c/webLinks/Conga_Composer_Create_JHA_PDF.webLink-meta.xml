@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conga_Composer_Create_JHA_PDF</fullName>
+    <availability>online</availability>
+    <description>Originally created by Conga Solution Manager. Date of last use of Update Button from Conga Solution record: https://centurigroup.my.salesforce.com/a2iPk000000kMvBIAU
+22-Oct-2024 07:05:40 AM</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>false</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>660</height>
+    <isResizable>false</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>Create JHA PDF</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>/apex/APXTConga4__Conga_Composer?SolMgr=1
+&amp;serverUrl={!API.Partner_Server_URL_520}
+&amp;Id={!NPL_JHA_for_SDOCS__c.Id}
+
+&amp;QueryId=[NPLJHAForSDOCS]0Q_007EAU099652,
+[CriticalWorksPerfrmd]0Q_010EAU042505,
+[VisitorInformation]0Q_012EAU251036,
+[FileImages]0Q_013EAU699867,
+[PersonnelSignatures]0Q_015EAU518829
+
+&amp;TemplateId=0T_081EAU773682
+
+&amp;DefaultPDF=1
+&amp;OFN={!NPL_JHA_for_SDOCS__c.PDF_Name__c}
+&amp;DS7=3
+&amp;SC0=1
+&amp;SC1=SalesforceFile
+&amp;OneDriveVisible=0
+&amp;OFP=FDM/Mid-America/JHA</url>
+    <width>900</width>
+</WebLink>
