@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
-    <deploymentStatus>Deployed</deploymentStatus>
-    <description>Platform event notifying subscribers that there was an integration transaction required as indicated by the Centuri_Outbound_Notification__c object. This object provides an object name and record id allowing the subscriber to retrieve the data and integrate it to external system(s)</description>
-    <eventType>HighVolume</eventType>
-    <label>OutboundNotificationEvent</label>
-    <pluralLabel>OutboundNotificationEvents</pluralLabel>
-    <publishBehavior>PublishAfterCommit</publishBehavior>
-</CustomObject>

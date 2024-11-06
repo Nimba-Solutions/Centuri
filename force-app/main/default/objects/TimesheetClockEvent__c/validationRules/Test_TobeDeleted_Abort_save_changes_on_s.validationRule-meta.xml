@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Test_TobeDeleted_Abort_save_changes_on_s</fullName>
-    <active>false</active>
-    <errorConditionFormula>true</errorConditionFormula>
-    <errorMessage>Testing System error - will be disabled in sometime</errorMessage>
-</ValidationRule>

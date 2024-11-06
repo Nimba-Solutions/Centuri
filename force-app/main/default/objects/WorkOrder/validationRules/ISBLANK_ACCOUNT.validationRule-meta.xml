@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>ISBLANK_ACCOUNT</fullName>
-    <active>true</active>
-    <description>#28654 Account should not be blank</description>
-    <errorConditionFormula>AND( NOT(ISBLANK(Sub_Project__c )),
-ISBLANK(  AccountId  ))</errorConditionFormula>
-    <errorMessage>Work Order Account should not be missing when a Sub Project has been identified.</errorMessage>
-</ValidationRule>

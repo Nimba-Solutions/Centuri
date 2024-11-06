@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>SAP_Service_Contract_Number_Length</fullName>
-    <active>true</active>
-    <description>28660 Validate that the length of the contract meets the SAP standard to protect against bad data.</description>
-    <errorConditionFormula>LEN( SAP_Service_Contract_Number__c )&lt;&gt; 8</errorConditionFormula>
-    <errorMessage>The SAP Service Contract Number must be 8 characters in length to allow for reports and formulas to break it down into the elements.</errorMessage>
-</ValidationRule>

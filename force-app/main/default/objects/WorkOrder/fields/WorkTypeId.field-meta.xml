@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>WorkTypeId</fullName>
-    <description>Consumed by Youreka for offline capability(This field was created for NPL MA).</description>
-    <trackFeedHistory>false</trackFeedHistory>
-    <trackHistory>false</trackHistory>
-    <type>Lookup</type>
-</CustomField>

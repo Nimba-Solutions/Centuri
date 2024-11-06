@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Check_PersonnelNumber</fullName>
-    <active>true</active>
-    <description>Personnel Number is Required</description>
-    <errorConditionFormula>ISBLANK(PersonnelNumber__c)</errorConditionFormula>
-    <errorDisplayField>PersonnelNumber__c</errorDisplayField>
-    <errorMessage>Personnel Number is Required</errorMessage>
-</ValidationRule>

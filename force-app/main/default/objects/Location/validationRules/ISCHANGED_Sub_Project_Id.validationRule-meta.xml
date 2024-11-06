@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>ISCHANGED_Sub_Project_Id</fullName>
-    <active>true</active>
-    <description>Sub Project Id cannot change or the Address location lookup in the New Address flow will break. See flow SCR_Address_Create_Update_Sub_Project_Address</description>
-    <errorConditionFormula>ISCHANGED( Sub_Project_Id__c  )</errorConditionFormula>
-    <errorMessage>Location Sub Project Id cannot be modified after creation</errorMessage>
-</ValidationRule>

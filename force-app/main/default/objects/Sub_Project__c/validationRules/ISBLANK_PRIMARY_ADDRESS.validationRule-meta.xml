@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>ISBLANK_PRIMARY_ADDRESS</fullName>
-    <active>true</active>
-    <description>29636. Require Primary after initial creation</description>
-    <errorConditionFormula>AND(
-NOT(ISNEW()), ISBLANK( Primary_Address__c ))</errorConditionFormula>
-    <errorMessage>Sub Project Primary Address is required.</errorMessage>
-</ValidationRule>
