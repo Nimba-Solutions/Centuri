@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_WorkDate</fullName>
+    <active>true</active>
+    <description>Work Date is Required</description>
+    <errorConditionFormula>ISBLANK(WorkDate__c)</errorConditionFormula>
+    <errorDisplayField>WorkDate__c</errorDisplayField>
+    <errorMessage>Work Date is Required</errorMessage>
+</ValidationRule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ISBLANK_REJECTION_REASON</fullName>
+    <active>true</active>
+    <description>28077 Work Request Rejection Reason is required when Status is Rejected</description>
+    <errorConditionFormula>AND(
+ISBLANK(  Rejection_Reason__c  ),
+TEXT(  Status__c  )=&apos;Rejected&apos;)</errorConditionFormula>
+    <errorMessage>Work Request Rejection Reason is required when Status is Rejected</errorMessage>
+</ValidationRule>

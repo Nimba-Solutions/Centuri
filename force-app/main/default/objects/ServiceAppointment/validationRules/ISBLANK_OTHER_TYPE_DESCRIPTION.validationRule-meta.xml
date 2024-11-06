@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ISBLANK_OTHER_TYPE_DESCRIPTION</fullName>
+    <active>true</active>
+    <description>28058</description>
+    <errorConditionFormula>AND(
+RecordType.DeveloperName=&quot;NPLUS_Basic&quot;, 
+ISBLANK( Other_Type__c   ), TEXT( Type__c )=&apos;Other&apos;)</errorConditionFormula>
+    <errorDisplayField>Other_Type__c</errorDisplayField>
+    <errorMessage>Other Type must have a value when Other is selected</errorMessage>
+</ValidationRule>

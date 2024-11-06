@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAP_Service_Contract_Job_Number_Match</fullName>
+    <active>true</active>
+    <description>28857 require value to always match the first 8 characters of the Parent Service Contract</description>
+    <errorConditionFormula>left(SAP_Service_Contract_Job_Number__c,8)&lt;&gt; Service_Contract__r.SAP_Service_Contract_Number__c</errorConditionFormula>
+    <errorMessage>The SAP Service Contract Job Number must be from the Parent Service Contract with matching the SAP Service Contract Number</errorMessage>
+</ValidationRule>

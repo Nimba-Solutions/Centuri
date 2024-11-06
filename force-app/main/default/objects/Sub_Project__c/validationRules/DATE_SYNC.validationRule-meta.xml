@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DATE_SYNC</fullName>
+    <active>true</active>
+    <description>#29512 Can&apos;t plan to end before you start</description>
+    <errorConditionFormula>Planned_Start_Date__c &gt; Planned_Completion_Date__c</errorConditionFormula>
+    <errorMessage>Sub Project Planned Start Date cannot be after the Planned Completion Date</errorMessage>
+</ValidationRule>

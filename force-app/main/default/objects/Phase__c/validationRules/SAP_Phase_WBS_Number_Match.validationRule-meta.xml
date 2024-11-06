@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAP_Phase_WBS_Number_Match</fullName>
+    <active>true</active>
+    <description>28858- WBS Number from SAP must match the Service Contract Job</description>
+    <errorConditionFormula>LEFT( SAP_Phase_WBS_Number__c ,16)&lt;&gt;  NPLUS_Job__r.SAP_Service_Contract_Job_Number__c</errorConditionFormula>
+    <errorMessage>The SAP Phase/WBS Number must be from the Service Contract Job. The numbers do not match.</errorMessage>
+</ValidationRule>

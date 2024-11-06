@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Note_Type</fullName>
+    <active>true</active>
+    <description>Note type is Required</description>
+    <errorConditionFormula>ISBLANK(TEXT(NoteType__c))</errorConditionFormula>
+    <errorDisplayField>NoteType__c</errorDisplayField>
+    <errorMessage>Note type is Required</errorMessage>
+</ValidationRule>

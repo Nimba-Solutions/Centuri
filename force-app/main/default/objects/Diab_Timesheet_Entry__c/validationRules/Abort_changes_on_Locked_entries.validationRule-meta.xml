@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Abort_changes_on_Locked_entries</fullName>
+    <active>false</active>
+    <description>Update to Locked Timesheet Entries is not allowed post Lockout time</description>
+    <errorConditionFormula>AND(Diab_IsLocked_Adjuster_Approver__c = true ,
+OR(ISCHANGED(AppName__c),
+		ISCHANGED(Approver__c),
+ISCHANGED(Area_Serv_Terr__c),
+ISCHANGED(AttendanceType__c),
+ISCHANGED(CatsHours__c),
+ISCHANGED(City__c),
+ISCHANGED(CostCenter__c),
+
+
+ISCHANGED(HourPer__c),
+ISCHANGED(IsOvertime__c),
+ISCHANGED(ISStraightTime__c),
+ISCHANGED(LocalDateTime_del__c),
+ISCHANGED(LockoutDate__c),
+ISCHANGED(Name),
+ISCHANGED(PersonnelNumber__c),
+ISCHANGED(Rate__c),
+ISCHANGED(Reason__c),
+ISCHANGED(ShortText__c),
+ISCHANGED(State__c),
+ISCHANGED(Status__c),
+ISCHANGED(Timesheet__c),
+ISCHANGED(ValuationBasis__c),
+ISCHANGED(WageType__c),
+ISCHANGED(WBSElement__c),
+ISCHANGED(WBSElementID__c),
+ISCHANGED(WeekEnding_Date__c),
+			ISCHANGED(WorkDate__c)
+	))</errorConditionFormula>
+    <errorMessage>The Timesheet Entry is locked. You can not make any changes. Please contact administrator for further assistance.</errorMessage>
+</ValidationRule>

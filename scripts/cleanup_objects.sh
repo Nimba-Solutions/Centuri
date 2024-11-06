@@ -17,8 +17,8 @@ find . -path "*/fields/*__c.field-meta.xml" | grep -v "/fields/[A-Z][A-Z0-9]*__"
     cp "$file" "$TEMP_DIR/$file"
 done
 
-echo "Copying custom objects without a namespace..."
-find . -name "*__c.object-meta.xml" | grep -v "/[A-Z][A-Z0-9]*__" | while read -r file; do
+echo "Copying objects without a namespace..."
+find . -name "*.object-meta.xml" | grep -v "/[A-Z][A-Z0-9]*__[A-Za-z0-9_]*__c" | while read -r file; do
     mkdir -p "$TEMP_DIR/$(dirname "$file")"
     cp "$file" "$TEMP_DIR/$file"
 done

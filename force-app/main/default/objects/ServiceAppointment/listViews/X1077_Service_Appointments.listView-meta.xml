@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X1077_Service_Appointments</fullName>
+    <columns>Name</columns>
+    <columns>Status</columns>
+    <columns>WorkType</columns>
+    <columns>Assigned_Resource__c</columns>
+    <columns>LatestEndTime</columns>
+    <columns>SchedStartTime</columns>
+    <columns>SchedEndTime</columns>
+    <columns>Formatted_Address__c</columns>
+    <columns>ActualStartTime</columns>
+    <columns>ActualEndTime</columns>
+    <columns>Other_Type__c</columns>
+    <columns>Type__c</columns>
+    <columns>Type_Formula__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>1077 Service Appointments</label>
+    <sharedTo>
+        <group>X1077</group>
+    </sharedTo>
+</ListView>

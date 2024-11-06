@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Abort_Employee_Save</fullName>
+    <active>true</active>
+    <description>Abort employee save if the sfs user is reused.</description>
+    <errorConditionFormula>IsSFSUserAlreadyAssigned__c</errorConditionFormula>
+    <errorMessage>The SFS user already being used for another Employee.</errorMessage>
+</ValidationRule>

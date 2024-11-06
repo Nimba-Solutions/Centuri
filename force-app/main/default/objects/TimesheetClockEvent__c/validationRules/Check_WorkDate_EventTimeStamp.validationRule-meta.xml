@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_WorkDate_EventTimeStamp</fullName>
+    <active>true</active>
+    <description>Work Date/Event Time Stamp is required</description>
+    <errorConditionFormula>ISBLANK(EventTimeStamp__c)</errorConditionFormula>
+    <errorDisplayField>EventTimeStamp__c</errorDisplayField>
+    <errorMessage>Work Date/Event Time Stamp is required</errorMessage>
+</ValidationRule>

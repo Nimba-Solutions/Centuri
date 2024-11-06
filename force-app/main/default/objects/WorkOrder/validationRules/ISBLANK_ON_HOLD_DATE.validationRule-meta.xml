@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ISBLANK_ON_HOLD_DATE</fullName>
+    <active>true</active>
+    <description>#29507</description>
+    <errorConditionFormula>AND(
+ISBLANK( On_Hold_Date__c ),
+TEXT(  Status  ) = &apos;On Hold&apos;)</errorConditionFormula>
+    <errorMessage>Work Order On Hold Date is required when status is On Hold</errorMessage>
+</ValidationRule>

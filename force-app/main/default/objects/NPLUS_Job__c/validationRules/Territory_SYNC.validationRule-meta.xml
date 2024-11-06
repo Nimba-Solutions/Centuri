@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Territory_SYNC</fullName>
+    <active>true</active>
+    <description>28040 The Service Territory must be a child of the Service Contract Territory</description>
+    <errorConditionFormula>AND(
+NOT(ISBLANK( Service_Territory__c )),
+Service_Territory__r.ParentTerritoryId &lt;&gt; Service_Contract__r.Service_Territory__c)</errorConditionFormula>
+    <errorMessage>The Service Territory must be a child of the Service Contract Territory (NPLUS Job)</errorMessage>
+</ValidationRule>

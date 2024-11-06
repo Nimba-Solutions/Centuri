@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_EventType</fullName>
+    <active>true</active>
+    <description>Event Type is Required</description>
+    <errorConditionFormula>ISBLANK(TEXT(EventType__c))</errorConditionFormula>
+    <errorDisplayField>EventType__c</errorDisplayField>
+    <errorMessage>Event Type is Required</errorMessage>
+</ValidationRule>
