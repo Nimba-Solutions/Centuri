@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>ISBLANK_STATUS</fullName>
-    <active>true</active>
-    <description>28077</description>
-    <errorConditionFormula>TEXT( Status__c )=&apos;&apos;</errorConditionFormula>
-    <errorMessage>Work Request Status cannot be blank</errorMessage>
-</ValidationRule>

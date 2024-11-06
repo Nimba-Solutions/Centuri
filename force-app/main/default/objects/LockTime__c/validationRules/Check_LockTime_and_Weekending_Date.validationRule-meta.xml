@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Check_LockTime_and_Weekending_Date</fullName>
-    <active>true</active>
-    <description>Lock Out Date Time should not preceed Weekending Date.</description>
-    <errorConditionFormula>IF(DATETIMEVALUE(LockoutDate__c) &lt;  DATETIMEVALUE(WeekEnding_Date__c), true, false)</errorConditionFormula>
-    <errorDisplayField>LockoutDate__c</errorDisplayField>
-    <errorMessage>Lock Out Date Time should not preceed Weekending Date.</errorMessage>
-</ValidationRule>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Check_WBS_Element_and_CostCenter</fullName>
-    <active>true</active>
-    <description>Timesheet Entry can have either WBS or Cost Center.</description>
-    <errorConditionFormula>NOT(OR (AND (!ISBLANK(WBSElement__c), ISBLANK(CostCenter__c )),
-					AND (ISBLANK(WBSElement__c), !ISBLANK(CostCenter__c ))))</errorConditionFormula>
-    <errorMessage>Timesheet Entry can have either WBS or Cost Center.</errorMessage>
-</ValidationRule>

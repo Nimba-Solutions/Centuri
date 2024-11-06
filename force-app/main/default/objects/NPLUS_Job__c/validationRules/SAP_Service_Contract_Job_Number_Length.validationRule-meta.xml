@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>SAP_Service_Contract_Job_Number_Length</fullName>
-    <active>true</active>
-    <description>28857 require field length to always be 16 characters to allow for formulas on components of the Number</description>
-    <errorConditionFormula>LEN(SAP_Service_Contract_Job_Number__c )&lt;&gt; 16</errorConditionFormula>
-    <errorMessage>The SAP Service Contract Job Number must be 16 characters in length to allow for reports and formulas to break it down into the elements.</errorMessage>
-</ValidationRule>

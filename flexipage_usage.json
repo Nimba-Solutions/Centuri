@@ -1,0 +1,137 @@
+{
+    "Account_Record_Page_Default": true
+,
+    "Address_Record_Page_Default": true
+,
+    "Adjusters_App_UtilityBar": false
+,
+    "Approvers_App_UtilityBar": false
+,
+    "Case_Record_Page": true
+,
+    "Case_Record_Page1": false
+,
+    "Case_Record_Page2": true
+,
+    "CaseDefault_Record_Page": false
+,
+    "Centuri_Outbound_Notification_Record_Page": true
+,
+    "Centuri_Timesheet_Entry_Record_Page": false
+,
+    "Centuri_Timesheet_Equipment_Entry_Record_Page": false
+,
+    "Centuri_Timesheet_Record_Page": true
+,
+    "Centuri_User_Home_Page": false
+,
+    "Conga_Solution_Template_Record_Page": false
+,
+    "ContactCenter_UtilityBar": false
+,
+    "Control_Deck": true
+,
+    "Cost_Center_Record_Page": true
+,
+    "CrisisCenter_UtilityBar": false
+,
+    "Critical_Work_Performed_Record_Page_Default": true
+,
+    "Default_Crew_Record_Page_Default": false
+,
+    "Employee_Record_Page": true
+,
+    "ExpressionSetConsole_UtilityBar": false
+,
+    "FlowsApp_UtilityBar": false
+,
+    "Foreman_UtilityBar": false
+,
+    "Form_Lightning_Page": false
+,
+    "Home_Page_Default": false
+,
+    "Integration_Exception": false
+,
+    "JHA_Record_Page": false
+,
+    "LightningSales_UtilityBar": false
+,
+    "LightningSalesConsole_UtilityBar": false
+,
+    "LightningService_UtilityBar": false
+,
+    "Location_Record_Page_Default": true
+,
+    "Mobile_Notification_Record_Page": true
+,
+    "Notification_Assignment_Record_Page": true
+,
+    "NPL_JHA_for_SDOCS_Record_Page": true
+,
+    "NPL_UtilityBar1": false
+,
+    "NPLUS_Job_Record_Page_Default": true
+,
+    "Operations_Management": false
+,
+    "Phase_Record_Page_Default": true
+,
+    "PreconfiguredLightningServiceConsole_UtilityBar": false
+,
+    "Price_Book_Record_Page_Default": true
+,
+    "Pricing_Record_Page_Default": true
+,
+    "Product_Record_Page_Default": true
+,
+    "Project_Record_Page_Default": true
+,
+    "S_Docs_UtilityBar": false
+,
+    "SalesCloudMobile_UtilityBar": false
+,
+    "Service_Appointment_Record_Page_Default": true
+,
+    "Service_Contract_Partner_Record_Page_Default": true
+,
+    "Service_Contract_Record_Page_Default": true
+,
+    "Service_Crew_Member_Record_Page_Default": true
+,
+    "Service_Crew_Record_Page_Default": true
+,
+    "Service_Resource_Record_Page_Default": true
+,
+    "Service_Territory_Member_Record_Page_Default": true
+,
+    "Service_Territory_Record_Page_Default": true
+,
+    "Sub_Project_Record_Page": true
+,
+    "Superintendents_Clipboard": false
+,
+    "Time_Entry": true
+,
+    "Time_Entry_Adjuster": false
+,
+    "Time_Entry_Adjuster_App_UtilityBar": false
+,
+    "Time_Entry_Approver": false
+,
+    "Timesheet_Entry_Record_Page2": true
+,
+    "User_Management_Page": false
+,
+    "WOLI_Record_Page_Default": true
+,
+    "Work_Authorization_Record_Page_Default": true
+,
+    "Work_Order_Record_Page_Default": true
+,
+    "Work_Order_Record_Page3": false
+,
+    "Work_Request_Record_Page_Default": true
+,
+    "Work_Type_Record_Page_Default": true
+}

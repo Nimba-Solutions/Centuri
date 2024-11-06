@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>ISBLANK_ADDRESS_LOOKUP</fullName>
-    <active>true</active>
-    <description>#44324 Address lookup should not be blank</description>
-    <errorConditionFormula>AND( NOT(ISBLANK(Sub_Project__c )),
-ISBLANK(  Address__c   ))</errorConditionFormula>
-    <errorMessage>Work Order Address should not be missing when a Sub Project has been identified.</errorMessage>
-</ValidationRule>
