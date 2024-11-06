@@ -1,28 +1,45 @@
 #!/bin/bash
 
-# Set the path to the objects directory
+# Enable logging
+exec 1> >(tee cleanup.log) 2>&1
+echo "Starting cleanup at $(date)"
+
 OBJECTS_DIR="../force-app/main/default/objects"
 
-# Check if the objects directory exists
-if [ ! -d "$OBJECTS_DIR" ]; then
-    echo "Error: $OBJECTS_DIR directory not found!"
-    exit 1
-fi
-
-# Create temp directory to store files we want to keep
+# Create temp directory
 TEMP_DIR=$(mktemp -d)
+echo "Created temp dir: $TEMP_DIR"
 
-# Copy only the files we want to preserve
-find "$OBJECTS_DIR" -path "*/fields/*__c.field-meta.xml" -exec cp --parents {} "$TEMP_DIR" \;
-find "$OBJECTS_DIR" -name "*__c.object-meta.xml" -exec cp --parents {} "$TEMP_DIR" \;
+echo "Copying custom fields without a namespace..."
+cd "$OBJECTS_DIR" || exit
+find . -path "*/fields/*__c.field-meta.xml" | grep -v "/fields/[A-Z][A-Z0-9]*__" | while read -r file; do
+    mkdir -p "$TEMP_DIR/$(dirname "$file")"
+    cp "$file" "$TEMP_DIR/$file"
+done
 
-# Remove everything in objects directory
-rm -rf "$OBJECTS_DIR"/*
+echo "Copying objects without a namespace..."
+find . -name "*__c.object-meta.xml" | grep -v "/[A-Z][A-Z0-9]*__" | while read -r file; do
+    mkdir -p "$TEMP_DIR/$(dirname "$file")"
+    cp "$file" "$TEMP_DIR/$file"
+done
 
-# Restore preserved files
-cp -r "$TEMP_DIR"/* ../force-app/main/default/
+echo "Copying compactLayouts..."
+find . -type d -name "compactLayouts" | while read -r dir; do
+    mkdir -p "$TEMP_DIR/$(dirname "$dir")"
+    cp -r "$dir" "$TEMP_DIR/$(dirname "$dir")"
+done
 
-# Cleanup temp directory
+echo "Copying recordTypes..."
+find . -type d -name "recordTypes" | while read -r dir; do
+    mkdir -p "$TEMP_DIR/$(dirname "$dir")"
+    cp -r "$dir" "$TEMP_DIR/$(dirname "$dir")"
+done
+
+echo "Clearing objects directory..."
+rm -rf ./*
+
+echo "Restoring preserved files..."
+cp -r "$TEMP_DIR/." .
+
 rm -rf "$TEMP_DIR"
-
-echo "Cleanup completed. Only custom fields and object meta files preserved."
+echo "Cleanup completed at $(date)"

@@ -1,0 +1,182 @@
+[
+    {
+        "Id": "0A34x000000U5FWCA0",
+        "SubscriberPackageId": "0330M000001ExoUQAS",
+        "SubscriberPackageName": "FSL",
+        "SubscriberPackageNamespace": "FSL",
+        "SubscriberPackageVersionId": "04tKX000000PxtGYAS",
+        "SubscriberPackageVersionName": "Winter 2025",
+        "SubscriberPackageVersionNumber": "252.0.98.1"
+    },
+    {
+        "Id": "0A34x000000jVQgCAM",
+        "SubscriberPackageId": "0330b000000cQwJAAU",
+        "SubscriberPackageName": "MobileLandingNonEssentials",
+        "SubscriberPackageNamespace": null,
+        "SubscriberPackageVersionId": "04t0b000001NxJWAA0",
+        "SubscriberPackageVersionName": "1.1",
+        "SubscriberPackageVersionNumber": "1.1.0.1"
+    },
+    {
+        "Id": "0A34x000000jVQhCAM",
+        "SubscriberPackageId": "0330b000000kmdZAAQ",
+        "SubscriberPackageName": "DreamForceTrials",
+        "SubscriberPackageNamespace": "mobileLanding",
+        "SubscriberPackageVersionId": "04t0b000001DkOeAAK",
+        "SubscriberPackageVersionName": "Spring 2018",
+        "SubscriberPackageVersionNumber": "1.4.0.1"
+    },
+    {
+        "Id": "0A34x000000575CCAQ",
+        "SubscriberPackageId": "033240000009bziAAA",
+        "SubscriberPackageName": "Elements for Salesforce",
+        "SubscriberPackageNamespace": "Q9",
+        "SubscriberPackageVersionId": "04tJ6000000TnlFIAS",
+        "SubscriberPackageVersionName": "5.7.6",
+        "SubscriberPackageVersionNumber": "5.7.6.2"
+    },
+    {
+        "Id": "0A34x00000056sKCAQ",
+        "SubscriberPackageId": "03330000000wDAbAAM",
+        "SubscriberPackageName": "Salesforce Connected Apps",
+        "SubscriberPackageNamespace": "sf_com_apps",
+        "SubscriberPackageVersionId": "04t30000001DUvrAAG",
+        "SubscriberPackageVersionName": "Winter '16",
+        "SubscriberPackageVersionNumber": "1.7.0.1"
+    },
+    {
+        "Id": "0A34x000000jVQcCAM",
+        "SubscriberPackageId": "03330000001Ig8MAAS",
+        "SubscriberPackageName": "Salesforce Mobile Apps",
+        "SubscriberPackageNamespace": "sf_chttr_apps",
+        "SubscriberPackageVersionId": "04t4V00000236XKQAY",
+        "SubscriberPackageVersionName": "Summer 2024",
+        "SubscriberPackageVersionNumber": "1.22.0.1"
+    },
+    {
+        "Id": "0A34x00000056rZCAQ",
+        "SubscriberPackageId": "03336000000GxnpAAC",
+        "SubscriberPackageName": "Salesforce Field Service App Package",
+        "SubscriberPackageNamespace": "sf_fieldservice",
+        "SubscriberPackageVersionId": "04tHq000000lsw7IAA",
+        "SubscriberPackageVersionName": "1.55",
+        "SubscriberPackageVersionNumber": "1.55.0.2"
+    },
+    {
+        "Id": "0A34x000000jVQPCA2",
+        "SubscriberPackageId": "03350000000DFFrAAO",
+        "SubscriberPackageName": "Salesforce.com CRM Dashboards",
+        "SubscriberPackageNamespace": null,
+        "SubscriberPackageVersionId": "04t50000000EcdrAAC",
+        "SubscriberPackageVersionName": "Summer 2011",
+        "SubscriberPackageVersionNumber": "1.0.0.1"
+    },
+    {
+        "Id": "0A3Pk0000005YfNKAU",
+        "SubscriberPackageId": "0335G000000ik1uQAA",
+        "SubscriberPackageName": "quickLookup",
+        "SubscriberPackageNamespace": null,
+        "SubscriberPackageVersionId": "04t5G000003zgYwQAI",
+        "SubscriberPackageVersionName": "quickLookup",
+        "SubscriberPackageVersionNumber": "1.2.0.0"
+    },
+    {
+        "Id": "0A3Pk0000005YdlKAE",
+        "SubscriberPackageId": "0335G000000mjPYQAY",
+        "SubscriberPackageName": "datatable",
+        "SubscriberPackageNamespace": null,
+        "SubscriberPackageVersionId": "04t5G000004fz9EQAQ",
+        "SubscriberPackageVersionName": "Datatable v4",
+        "SubscriberPackageVersionNumber": "4.3.2.0"
+    },
+    {
+        "Id": "0A3Pk00000018HKKAY",
+        "SubscriberPackageId": "033600000008bATAAY",
+        "SubscriberPackageName": "Conga Composer",
+        "SubscriberPackageNamespace": "APXTConga4",
+        "SubscriberPackageVersionId": "04t5w000005ujndAAA",
+        "SubscriberPackageVersionName": "Crestone Needle",
+        "SubscriberPackageVersionNumber": "8.270.0.1"
+    },
+    {
+        "Id": "0A34x000000U5inCAC",
+        "SubscriberPackageId": "03361000000AjTyAAK",
+        "SubscriberPackageName": "Youreka",
+        "SubscriberPackageNamespace": "disco",
+        "SubscriberPackageVersionId": "04tKY000000Ts7yYAC",
+        "SubscriberPackageVersionName": "Turbine 3",
+        "SubscriberPackageVersionNumber": "3.410.0.1"
+    },
+    {
+        "Id": "0A3Pk00000019AwKAI",
+        "SubscriberPackageId": "03380000000FAkPAAW",
+        "SubscriberPackageName": "Conga Batch",
+        "SubscriberPackageNamespace": "APXT_BPM",
+        "SubscriberPackageVersionId": "04t2E000001fDFTQA2",
+        "SubscriberPackageVersionName": "8.22",
+        "SubscriberPackageVersionNumber": "8.22.0.3"
+    },
+    {
+        "Id": "0A3Pk0000005YVhKAM",
+        "SubscriberPackageId": "0338b000000khTgAAI",
+        "SubscriberPackageName": "FlowActionsBasePack",
+        "SubscriberPackageNamespace": "usf3",
+        "SubscriberPackageVersionId": "04t8b000001ZxNVAA0",
+        "SubscriberPackageVersionName": "versionName",
+        "SubscriberPackageVersionNumber": "3.18.0.0"
+    },
+    {
+        "Id": "0A34x000000UCjICAW",
+        "SubscriberPackageId": "033A0000000TeMzIAK",
+        "SubscriberPackageName": "SDocs",
+        "SubscriberPackageNamespace": "SDOC",
+        "SubscriberPackageVersionId": "04t2K000000cfVgQAI",
+        "SubscriberPackageVersionName": "September '23",
+        "SubscriberPackageVersionNumber": "5.0.0.1"
+    },
+    {
+        "Id": "0A34x00000056rdCAA",
+        "SubscriberPackageId": "033Dm0000004SC4IAM",
+        "SubscriberPackageName": "Data Fetcher",
+        "SubscriberPackageNamespace": "joshdaymentlabs",
+        "SubscriberPackageVersionId": "04tDm00000051QgIAI",
+        "SubscriberPackageVersionName": "ver 1.4",
+        "SubscriberPackageVersionNumber": "1.4.0.1"
+    },
+    {
+        "Id": "0A3Pk0000000ZtqKAE",
+        "SubscriberPackageId": "033b0000000Pf2AAAS",
+        "SubscriberPackageName": "Declarative Lookup Rollup Summaries Tool",
+        "SubscriberPackageNamespace": "dlrs",
+        "SubscriberPackageVersionId": "04t5p000001E8vdAAC",
+        "SubscriberPackageVersionName": "Release",
+        "SubscriberPackageVersionNumber": "2.19.0.8"
+    },
+    {
+        "Id": "0A3Pk0000005YaXKAU",
+        "SubscriberPackageId": "033f4000000mjNrAAI",
+        "SubscriberPackageName": "FlowScreenComponentsBasePack",
+        "SubscriberPackageNamespace": null,
+        "SubscriberPackageVersionId": "04t5G000004fz9OQAQ",
+        "SubscriberPackageVersionName": "3.3.6.0",
+        "SubscriberPackageVersionNumber": "3.3.6.0"
+    },
+    {
+        "Id": "0A34x000000jVQfCAM",
+        "SubscriberPackageId": "033i0000000QSSLAA4",
+        "SubscriberPackageName": "SocialCustomerService",
+        "SubscriberPackageNamespace": "SocialService",
+        "SubscriberPackageVersionId": "04ti0000000QzQyAAK",
+        "SubscriberPackageVersionName": "Winter 2013",
+        "SubscriberPackageVersionNumber": "1.0.0.2"
+    },
+    {
+        "Id": "0A3Pk000000199OKAQ",
+        "SubscriberPackageId": "033i0000000THM5AAO",
+        "SubscriberPackageName": "Conga Trigger",
+        "SubscriberPackageNamespace": "CongaWorkflow",
+        "SubscriberPackageVersionId": "04t6S000001QXvvQAG",
+        "SubscriberPackageVersionName": "8.25",
+        "SubscriberPackageVersionNumber": "8.25.0.1"
+    }
+]
