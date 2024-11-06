@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Concrete</fullName>
+        <default>false</default>
+        <label>Concrete</label>
+    </customValue>
+    <customValue>
+        <fullName>Construction</fullName>
+        <default>false</default>
+        <label>Construction</label>
+    </customValue>
+    <customValue>
+        <fullName>Locate Marking</fullName>
+        <default>false</default>
+        <label>Locate Marking</label>
+    </customValue>
+    <customValue>
+        <fullName>Plumbing</fullName>
+        <default>false</default>
+        <label>Plumbing</label>
+    </customValue>
+    <customValue>
+        <fullName>Post-Construction</fullName>
+        <default>false</default>
+        <label>Post-Construction</label>
+    </customValue>
+    <customValue>
+        <fullName>Pre-Construction</fullName>
+        <default>false</default>
+        <label>Pre-Construction</label>
+    </customValue>
+    <customValue>
+        <fullName>Restoration</fullName>
+        <default>false</default>
+        <label>Restoration</label>
+    </customValue>
+    <customValue>
+        <fullName>Site Work</fullName>
+        <default>false</default>
+        <label>Site Work</label>
+    </customValue>
+    <customValue>
+        <fullName>Truck/Transport</fullName>
+        <default>false</default>
+        <label>Truck/Transport</label>
+    </customValue>
+    <customValue>
+        <fullName>Welding</fullName>
+        <default>false</default>
+        <label>Welding</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <description>Used for SA and Work Request</description>
+    <masterLabel>Types of Work</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
