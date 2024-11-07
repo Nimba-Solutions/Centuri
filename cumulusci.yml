@@ -53,76 +53,75 @@ tasks:
     run_tests:
         options:
             required_org_code_coverage_percent: 75
+#     ensure_account_source_values:
+#         description: Ensures the required Account Source values exist in the org
+#         class_path: cumulusci.tasks.metadata_etl.value_sets.AddValueSetEntries
+#         options:
+#             api_names: AccountSource
+#             entries:
+#                 - fullName: Advertisement
+#                   label: Advertisement
+#                 - fullName: Customer Event
+#                   label: Customer Event
+#                 - fullName: Employee Referral
+#                   label: Employee Referral
+#                 - fullName: Google AdWords
+#                   label: Google AdWords
+#                 - fullName: Other
+#                   label: Other
+#                 - fullName: Partner
+#                   label: Partner
+#                 - fullName: Purchased List
+#                   label: Purchased List
+#                 - fullName: Trade Show
+#                   label: Trade Show
+#                 - fullName: Webinar
+#                   label: Webinar
+#                 - fullName: Website
+#                   label: Website
 
-    ensure_account_source_values:
-        description: Ensures the required Account Source values exist in the org
-        class_path: cumulusci.tasks.metadata_etl.value_sets.AddValueSetEntries
-        options:
-            api_names: AccountSource
-            entries:
-                - fullName: Advertisement
-                  label: Advertisement
-                - fullName: Customer Event
-                  label: Customer Event
-                - fullName: Employee Referral
-                  label: Employee Referral
-                - fullName: Google AdWords
-                  label: Google AdWords
-                - fullName: Other
-                  label: Other
-                - fullName: Partner
-                  label: Partner
-                - fullName: Purchased List
-                  label: Purchased List
-                - fullName: Trade Show
-                  label: Trade Show
-                - fullName: Webinar
-                  label: Webinar
-                - fullName: Website
-                  label: Website
+#     ensure_work_order_status_values:
+#         description: Ensures the required Work Order Status values exist in the org
+#         class_path: cumulusci.tasks.metadata_etl.value_sets.AddValueSetEntries
+#         options:
+#             api_names: WorkOrderStatus
+#             entries:
+#                 - fullName: Open
+#                   label: Open
+#                 - fullName: Ready
+#                   label: Ready
+#                 - fullName: In Progress
+#                   label: In Progress
+#                 - fullName: Complete
+#                   label: Complete
+#                 - fullName: Canceled
+#                   label: Canceled
+#                 - fullName: On Hold
+#                   label: On Hold
 
-    ensure_work_order_status_values:
-        description: Ensures the required Work Order Status values exist in the org
-        class_path: cumulusci.tasks.metadata_etl.value_sets.AddValueSetEntries
-        options:
-            api_names: WorkOrderStatus
-            entries:
-                - fullName: Open
-                  label: Open
-                - fullName: Ready
-                  label: Ready
-                - fullName: In Progress
-                  label: In Progress
-                - fullName: Complete
-                  label: Complete
-                - fullName: Canceled
-                  label: Canceled
-                - fullName: On Hold
-                  label: On Hold
+#     ensure_address_type_values:
+#         description: Ensures the required Address Type values exist in the org
+#         class_path: cumulusci.tasks.metadata_etl.value_sets.AddValueSetEntries
+#         options:
+#             api_names: AddressType
+#             entries:
+#                 - fullName: Billing
+#                   label: Billing
+#                 - fullName: Mailing
+#                   label: Mailing
+#                 - fullName: Shipping
+#                   label: Shipping
+#                 - fullName: Home
+#                   label: Home
+#                 - fullName: Work Site
+#                   label: Work Site
 
-    ensure_address_type_values:
-        description: Ensures the required Address Type values exist in the org
-        class_path: cumulusci.tasks.metadata_etl.value_sets.AddValueSetEntries
-        options:
-            api_names: AddressType
-            entries:
-                - fullName: Billing
-                  label: Billing
-                - fullName: Mailing
-                  label: Mailing
-                - fullName: Shipping
-                  label: Shipping
-                - fullName: Home
-                  label: Home
-                - fullName: Work Site
-                  label: Work Site
-
-flows:
-    dependencies:
-        steps:
-            0.1:
-                task: ensure_account_source_values
-            0.2:
-                task: ensure_work_order_status_values
-            0.3:
-                task: ensure_address_type_values
+# flows:
+#     dependencies:
+#         steps:
+#             0.1:
+#                 task: ensure_account_source_values
+#             0.2:
+#                 task: ensure_work_order_status_values
+#             0.3:
+#                 task: ensure_address_type_values
