@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>IsDefault__c</fullName>
-    <defaultValue>false</defaultValue>
-    <description>IsDefault flag will be used to determine if the asset is being in default equipment</description>
-    <label>IsDefault</label>
-    <trackHistory>false</trackHistory>
-    <type>Checkbox</type>
-</CustomField>

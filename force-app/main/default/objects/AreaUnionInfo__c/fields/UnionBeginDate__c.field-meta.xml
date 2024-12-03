@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>UnionBeginDate__c</fullName>
-    <description>Union Begin Date(This field was created for NPL MA).</description>
-    <label>UnionBeginDate</label>
-    <required>false</required>
-    <trackTrending>false</trackTrending>
-    <type>Date</type>
-</CustomField>
